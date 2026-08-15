@@ -39,6 +39,9 @@ export default function Navbar() {
             {label}
           </a>
         ))}
+        <a href={`mailto:${links.email}`} onClick={() => setOpen(false)}>
+          Let’s Talk
+        </a>
       </div>
     </header>
   )
