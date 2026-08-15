@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 
-export function useInView(options = { threshold: 0.18, rootMargin: '0px 0px -8% 0px' }) {
+export function useInView(options = { threshold: 0.01, rootMargin: '0px 0px -40px 0px' }) {
   const ref = useRef(null)
   const [visible, setVisible] = useState(false)
 

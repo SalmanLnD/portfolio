@@ -7,16 +7,18 @@ export default function FeaturedProjects() {
 
   return (
     <section className="section" id="work">
-      <div className={`wrap reveal ${visible ? 'in' : ''}`} ref={ref}>
-        <p className="section-kicker">03 / Work</p>
-        <div className="projects-intro">
-          <h2 className="display">
-            Things I built because something was broken
-          </h2>
-          <p className="lede" style={{ marginTop: '0.8rem' }}>
-            Case studies from operations, developer infrastructure, automation, and EdTech — not a
-            gallery of tutorials.
-          </p>
+      <div className="wrap">
+        <div className={`reveal ${visible ? 'in' : ''}`} ref={ref}>
+          <p className="section-kicker">03 / Work</p>
+          <div className="projects-intro">
+            <h2 className="display">
+              Things I built because something was broken
+            </h2>
+            <p className="lede" style={{ marginTop: '0.8rem' }}>
+              Case studies from operations, developer infrastructure, automation, and EdTech — not a
+              gallery of tutorials.
+            </p>
+          </div>
         </div>
         {projects.map((project) => (
           <ProjectCaseStudy key={project.id} project={project} />
