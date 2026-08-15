@@ -10,7 +10,7 @@ export default function FeaturedProjects() {
       <div className={`wrap reveal ${visible ? 'in' : ''}`} ref={ref}>
         <p className="section-kicker">03 / Work</p>
         <div className="projects-intro">
-          <h2 className="display" style={{ fontSize: 'clamp(2rem, 5vw, 3.1rem)' }}>
+          <h2 className="display">
             Things I built because something was broken
           </h2>
           <p className="lede" style={{ marginTop: '0.8rem' }}>

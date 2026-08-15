@@ -8,7 +8,7 @@ export default function ProblemSolving() {
     <section className="section" id="problems">
       <div className={`wrap reveal ${visible ? 'in' : ''}`} ref={ref}>
         <p className="section-kicker">07 / Fundamentals</p>
-        <h2 className="display" style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', marginBottom: '0.8rem' }}>
+        <h2 className="display">
           I still solve problems.
         </h2>
         <p className="lede">

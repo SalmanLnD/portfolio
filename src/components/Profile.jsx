@@ -7,7 +7,7 @@ export default function Profile() {
     <section className="section" id="profile">
       <div className={`wrap reveal ${visible ? 'in' : ''}`} ref={ref}>
         <p className="section-kicker">01 / Profile</p>
-        <h2 className="display" style={{ fontSize: 'clamp(2rem, 5vw, 3.2rem)', marginBottom: '1.2rem' }}>
+        <h2 className="display">
           I work at the intersection of people, processes, and technology.
         </h2>
         <div className="profile-grid">

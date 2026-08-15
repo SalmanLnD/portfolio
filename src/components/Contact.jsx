@@ -5,7 +5,7 @@ export default function Contact() {
     <section className="section contact" id="contact">
       <div className="wrap">
         <p className="section-kicker">10 / Contact</p>
-        <h2 className="display" style={{ fontSize: 'clamp(2.1rem, 6vw, 3.6rem)', marginBottom: '0.8rem' }}>
+        <h2 className="display">
           Have a real problem worth solving?
         </h2>
         <p className="lede">

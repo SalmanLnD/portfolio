@@ -8,7 +8,7 @@ export default function HowIBuild() {
     <section className="section" id="method">
       <div className={`wrap reveal ${visible ? 'in' : ''}`} ref={ref}>
         <p className="section-kicker">04 / Method</p>
-        <h2 className="display" style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', marginBottom: '0.6rem' }}>
+        <h2 className="display">
           I don’t build projects just to add them to a portfolio.
         </h2>
         <p className="lede" style={{ marginBottom: '1.8rem' }}>

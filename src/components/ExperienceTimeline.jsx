@@ -9,7 +9,7 @@ export default function ExperienceTimeline() {
     <section className="section" id="experience">
       <div className={`wrap reveal ${visible ? 'in' : ''}`} ref={ref}>
         <p className="section-kicker">05 / Experience</p>
-        <h2 className="display" style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', marginBottom: '1.4rem' }}>
+        <h2 className="display">
           Placement Expert → DSA Trainer → Training Manager + Builder
         </h2>
         <div className="timeline">
